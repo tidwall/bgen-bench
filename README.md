@@ -62,15 +62,15 @@ insert(rand)        1,000,000 ops in   0.133 secs    132.9 ns/op     7,524,517 o
 == using callbacks ==
 search-item(seq)    1,000,000 ops in   0.086 secs     85.8 ns/op    11,655,348 op/sec
 search-item(rand)   1,000,000 ops in   0.259 secs    258.5 ns/op     3,867,919 op/sec
-search-1%%              1,000 ops in   0.002 secs   1580.6 ns/op       632,651 op/sec
-search-5%%              1,000 ops in   0.017 secs  17456.8 ns/op        57,284 op/sec
-search-10%%             1,000 ops in   0.053 secs  53262.3 ns/op        18,775 op/sec
+search-1%               1,000 ops in   0.002 secs   1580.6 ns/op       632,651 op/sec
+search-5%               1,000 ops in   0.017 secs  17456.8 ns/op        57,284 op/sec
+search-10%              1,000 ops in   0.053 secs  53262.3 ns/op        18,775 op/sec
 == using iterators ==
 search-item(seq)    1,000,000 ops in   0.080 secs     80.4 ns/op    12,439,658 op/sec
 search-item(rand)   1,000,000 ops in   0.237 secs    236.8 ns/op     4,222,288 op/sec
-search-1%%              1,000 ops in   0.003 secs   2723.8 ns/op       367,140 op/sec
-search-5%%              1,000 ops in   0.023 secs  22799.5 ns/op        43,860 op/sec
-search-10%%             1,000 ops in   0.068 secs  68322.6 ns/op        14,636 op/sec
+search-1%               1,000 ops in   0.003 secs   2723.8 ns/op       367,140 op/sec
+search-5%               1,000 ops in   0.023 secs  22799.5 ns/op        43,860 op/sec
+search-10%              1,000 ops in   0.068 secs  68322.6 ns/op        14,636 op/sec
 
 tidwall/rtree (spatial)
 Benchmarking 1000000 items, 50 times, taking the average result
@@ -78,7 +78,7 @@ insert(seq)         1,000,000 ops in   0.088 secs     87.7 ns/op    11,399,120 o
 insert(rand)        1,000,000 ops in   0.162 secs    162.1 ns/op     6,169,577 op/sec
 search-item(seq)    1,000,000 ops in   0.095 secs     94.9 ns/op    10,536,006 op/sec
 search-item(rand)   1,000,000 ops in   0.312 secs    312.1 ns/op     3,204,491 op/sec
-search-1%%              1,000 ops in   0.002 secs   1953.0 ns/op       512,023 op/sec
-search-5%%              1,000 ops in   0.017 secs  16968.3 ns/op        58,933 op/sec
-search-10%%             1,000 ops in   0.054 secs  53888.1 ns/op        18,556 op/sec
+search-1%               1,000 ops in   0.002 secs   1953.0 ns/op       512,023 op/sec
+search-5%               1,000 ops in   0.017 secs  16968.3 ns/op        58,933 op/sec
+search-10%              1,000 ops in   0.054 secs  53888.1 ns/op        18,556 op/sec
 ```
